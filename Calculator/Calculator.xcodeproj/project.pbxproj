@@ -13,6 +13,7 @@
 		3941BD4E1A3D303F000A60B2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3941BD4D1A3D303F000A60B2 /* Images.xcassets */; };
 		3941BD511A3D303F000A60B2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3941BD4F1A3D303F000A60B2 /* LaunchScreen.xib */; };
 		3941BD5D1A3D303F000A60B2 /* CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3941BD5C1A3D303F000A60B2 /* CalculatorTests.swift */; };
+		3941BD6B1A3D45B6000A60B2 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3941BD6A1A3D45B6000A60B2 /* Product.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		3941BD561A3D303F000A60B2 /* CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3941BD5B1A3D303F000A60B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3941BD5C1A3D303F000A60B2 /* CalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorTests.swift; sourceTree = "<group>"; };
+		3941BD6A1A3D45B6000A60B2 /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				3941BD461A3D303F000A60B2 /* AppDelegate.swift */,
 				3941BD481A3D303F000A60B2 /* ViewController.swift */,
 				3941BD4A1A3D303F000A60B2 /* Main.storyboard */,
+				3941BD6A1A3D45B6000A60B2 /* Product.swift */,
 				3941BD4D1A3D303F000A60B2 /* Images.xcassets */,
 				3941BD4F1A3D303F000A60B2 /* LaunchScreen.xib */,
 				3941BD441A3D303F000A60B2 /* Supporting Files */,
@@ -214,6 +217,7 @@
 			files = (
 				3941BD491A3D303F000A60B2 /* ViewController.swift in Sources */,
 				3941BD471A3D303F000A60B2 /* AppDelegate.swift in Sources */,
+				3941BD6B1A3D45B6000A60B2 /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +343,7 @@
 				INFOPLIST_FILE = Calculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -349,6 +354,7 @@
 				INFOPLIST_FILE = Calculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
